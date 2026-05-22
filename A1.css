@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #eeeeee;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .card img{
+  display: flex;
+  z-index: 2;
+} */
+
+.card {
+ height: 100%;
+ width: 100%;
+ padding: 20px;
+ 
+background-color: pink;
+
+  border-radius: 35px;
+  overflow: hidden;
+
+  display: flex;
+
+  position: relative;
+  /* position: absolute; */
+
+  z-index: 1;
+  
+}
+.left-part nav{
+  
+  height: 10%;
+  /* font-size: 40px; */
+  padding: 20px 50px;
+  
+
+  
+}
+.left-part nav img{
+  height: 50px;
+  width: 20%;
+}
+/* imge la apan kadich font size nahi  lau shkanar so hum use karte hai heidht and wedith bcz vo bhi ek box hai */
+.left-part section{
+  height: 50%;
+  width: 60%;
+ 
+  /* background-color: red; */
+  /* position: absolute; */
+  top: 70px;
+  left: 50px;
+  position: relative;
+  
+
+}
+.left-part section h3{
+  
+  position: relative;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  padding: 0px 0px;
+  
+}
+.left-part section h1{
+  font-size: 100px;
+  padding: 20px 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.left-part section p{
+  
+  
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.left-part section h2{
+  font-family: fantasy;
+  padding: 20px 0px;
+}
+/* .card nav{
+  background-color: pink;
+  display: flex;
+  height: 100px;
+  width: 100%;
+} */
+
+.left-part {
+
+  width: 60%;
+  height: 100%;
+  background-color: #f7c600;
+  
+  
+}
+
+.right-part {
+  width: 40%;
+  height: 100%;
+  background-color: #fff4c7;
+}
+.right-part nav{
+  /* background-color: blue; */
+  position: relative
+  ;
+ /* top: 10px; */
+ display: flex;
+justify-content: end;
+ padding: 10px 30px;
+ 
+
+}
+.right-part nav img{
+  color: white;
+ 
+  height: 30px;
+}
+.right-part .imgpikchu{
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 500px;
+  transform: translateY(-50%);
+  /* left: -350px;
+  position: relative;
+  top: 100px;
+  width: 600px; */
+ 
+}
