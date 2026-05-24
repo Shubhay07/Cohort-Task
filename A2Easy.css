@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(222, 40, 40); */
+    background-color: rgb(7, 7, 7);
+    color: white;
+    /* padding: 20px; */
+    
+    
+    /* background-image: url(c56ad736cc3a9cf9448588321f7633db-removebg-preview\ \(1\).png) ; */
+}
+main nav{
+    height: 10%;
+    width: 100%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+nav .div1 img{
+   height: 90px;
+    width: 110px;
+   position: relative;
+   bottom: 25px;
+   left: 20px;
+  
+    
+}
+
+main nav .div2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+main nav .div3 button{
+    padding: 10px;
+    color: white;
+    background-color: rgb(28, 26, 26);
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+main #middel{
+    height: 20%;
+    width: 100%;
+    /* background-color: rgb(48, 2, 10); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 190px;
+    /* gap: 20px; */
+    padding: 10px;
+  
+    
+    top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+main .middelbuttons{
+    /* background-color: blueviolet; */
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    border-radius: 10px;
+    font-size: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main .middelbuttons button{
+    background-color: rgb(31, 28, 28);
+      color: white;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main .middelbuttons .all{
+    background-color: orangered;
+}
+
+
+ main #section-1{
+    height: 60%;
+    width: 100%;
+    /* background-color: red;  */
+    padding:  0px 20px;
+
+    
+    /* background-color: cadetblue;
+    display: flex;
+    gap: 20px;
+    
+    justify-content: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    right: 10px;
+    padding: 20px;
+    border-radius: 10px; */
+
+} 
+.marquee-div{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(43, 13, 2, 0.962); */
+    display: flex;
+    justify-content: space-evenly;
+    padding:10px 0px;
+    
+
+}
+.card{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(20, 20, 20);
+    border-radius: 50px;
+    padding:0px;
+    
+}
+.card .marquee-img-div{
+    width: 100%;
+    height: 60%;
+   background-image: url(https://i.pinimg.com/736x/e8/7a/4d/e87a4d6dadca6a47f8d46d5c9ebceebc.jpg);
+    border-radius: 40px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card .marquee-text {
+    flex-direction: column;
+   justify-content: space-between;
+   padding: 5px 20px;
+    
+}
+.card .marquee-text button{
+    background-color: rgb(67, 22, 3);
+    color: rgb(255, 69, 2);
+    font-size: 20px;
+  
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.card .marquee-text h4{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.card .marquee-text h5{
+  margin-top: 15px;
+  opacity: 0.3;
+  font-size: 15px;
+
+}
+
+
+
+/*
+
+section .section1{
+    height: 100%;
+    width: 32%;
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+section .section1 button{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: rgb(214, 87, 41);
+    background-color: rgb(45, 13, 2);
+    border-radius: 15px;
+
+
+
+
+}
+section .section1 h3{
+    font-size: 20px;
+    
+    font-weight: bold;
+}
+section .section1{
+    width: 100%;
+    height: 90%;
+    background: black;
+}
+
+
+section .section2{
+    height: 100%;
+    width: 30%;
+    background-color: bisque;
+    border-radius: 20px;
+     padding: 10px 20px;
+}
+section .section2 button{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: rgb(214, 87, 41);
+    background-color: rgb(45, 13, 2);
+    border-radius: 15px;
+
+
+}
+
+section .section3{
+    height: 100%;
+    width: 30%;
+    background-color: bisque;
+    border-radius: 20px;
+     padding: 10px 20px;
+}
+section .section3 button{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: rgb(214, 87, 41);
+    background-color: rgb(45, 13, 2);
+    border-radius: 15px;
+
+}*/
+
+
+
