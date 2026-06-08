@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  /* overflow: hidden; */
+  /* padding: 30px 50px; */
+}
+main{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display:grid;
+    grid-template-columns:10% 30% 20% 20% 20%;
+    grid-template-rows: 25% 50% 25%;
+    gap: 20px;
+  padding: 50px 90px;
+
+ 
+
+    grid-template-areas: 
+    "left-header left-card portfolio portfolio portfolio"
+    "left-header left-card center center main-right"
+    "left-header left-card center-bottom right-bottom right-bottom"
+    
+    
+    ;
+
+    
+    
+
+}
+.left-header{
+    background-color: aqua;
+    grid-area: left-header;
+    border-radius: 20px;
+}
+.left-card{
+    background-color: rgb(30, 28, 28);
+    grid-area: left-card;
+    border-radius: 20px;
+}
+.portfolio{
+    background-color: white;
+    grid-area: portfolio;
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 90px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.center{
+    background-color: rgb(30, 28, 28);
+    grid-area: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.center img{
+    height: 100%;
+    width: 100%;
+}
+.center-bottom{
+    background-color: rgb(30, 28, 28);
+    grid-area: center-bottom;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    gap: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.center-bottom i {
+    color: white;
+    font-size: 50px;
+    /* background-color: white; */
+}
+.center-bottom h4{
+    font-size: 20px;
+    font-weight: 100;
+    
+}
+.main-right{
+    background-color: rgb(30, 28, 28);
+    grid-area: main-right;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.main-right .top{
+    height:50%;
+    width: 100%;
+    background-color: #a7d7d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-right .top h1{
+    /* margin-right:40px; */
+    font-size:80px;
+    font-style:blod;
+
+}
+.main-right .top h4{
+    
+    font-size: 30px;
+    height: 40px;
+    /* text-transform: uppercase; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    letter-spacing: -2px;
+   font-weight: 50;
+
+   
+}
+.main-right .bottom h4{
+    font-size: 30px;
+    height: 40px;
+    /* text-transform: uppercase; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    letter-spacing: -2px;
+   font-weight: 50;
+}
+.main-right .bottom{
+    height:50%;
+    width: 100%;
+    background-color: #8e6fbf;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items: center;
+}
+.main-right .bottom h1{
+      /* margin-right:40px; */
+    font-size:80px;
+    font-style:blod;
+}
+.right-bottom{
+    background-color: rgb(30, 28, 28);
+    grid-area: right-bottom;
+    border-radius: 20px;
+    display: flex;
+    /* overflow: hidden; */
+
+}
+.right-bottom .left{
+    height: 100%;
+    width: 45%;
+
+ 
+    display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.right-bottom .left img{
+    /* background-position: center;
+     */
+     /* margin-bottom: 30px;
+      */
+      height: 200px;
+      width: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+
+.right-bottom .right{
+    height: 100%;
+    width: 55%;
+    background-color: #fec367;
+    pading: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.right-bottom .right h1{
+    font-size: 50px;
+    color: rgb(30, 28, 28);
+    margin-right: 40px;
+}
+
+
